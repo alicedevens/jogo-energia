@@ -12,11 +12,11 @@ export class GameScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("paisagem", "./assets/background-jogo.jpg");
-        this.load.image("plataforma", "./assets/plataforma.png");
-        this.load.image("personagem_frente", "./assets/personagem_frente.png");
-        this.load.image("raio", "./assets/raio.png");
-        this.load.image("cafe", "./assets/café.png");
+        this.load.image("paisagem", "assets/background-jogo.jpg");
+        this.load.image("plataforma", "assets/plataforma.png");
+        this.load.image("personagem_frente", "assets/personagem_frente.png");
+        this.load.image("raio", "assets/raio.png");
+        this.load.image("cafe", "assets/café.png");
 
         this.moveCam = false; //the camera starts still
     }
