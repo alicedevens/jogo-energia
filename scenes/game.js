@@ -16,11 +16,11 @@ export class GameScene extends Phaser.Scene {
 
     preload() {
         //carregando as imagens que serão usadas 
-        this.load.image("paisagem", "../assets/background-jogo.jpg");
-        this.load.image("plataforma", "../assets/plataforma.png");
-        this.load.image("personagem_frente", "../assets/personagem_frente.png");
-        this.load.image("raio", "../assets/raio.png");
-        this.load.image("cafe", "/assets/café.png");
+        this.load.image("paisagem", "./assets/background-jogo.jpg");
+        this.load.image("plataforma", "./assets/plataforma.png");
+        this.load.image("personagem_frente", "./assets/personagem_frente.png");
+        this.load.image("raio", "./assets/raio.png");
+        this.load.image("cafe", "assets/café.png");
 
         this.moveCam = false; //a câmera começa parada junto com o personagem
     }
