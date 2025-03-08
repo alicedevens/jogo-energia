@@ -5,8 +5,8 @@ export class WelcomeScene extends Phaser.Scene {
     }
 
     preload() {
-        this.load.image("paisagem", "/assets/background-jogo.jpg");
-        this.load.image("start", "assets/botao_play.png")
+        this.load.image("paisagem", "./assets/background-jogo.jpg");
+        this.load.image("start", "./assets/botao_play.png")
 
     }
 
